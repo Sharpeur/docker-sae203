@@ -37,6 +37,18 @@ docker ps
 CONTAINER ID   IMAGE                 COMMAND              CREATED          STATUS          PORTS                                   NAMES
 b8f8f406b03c   bataille-navale-img   "httpd-foreground"   30 minutes ago   Up 30 minutes   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   quirky_tesla
 ```
+- Une fois le serveur de jeu prêt, compilez et executer le fichier ClientBatailleNavale.java:
+  ```shell
+  cd ServeurBatailleNavale
+  ```
+  ```shell
+  javac CLientBatailleNavale.java
+  ```
+  ```shell
+  java CLientBatailleNavale
+  ```
+- Ici le premier jouer à se connecter prendra la place j1, et le second j2.
+  Ainsi les duex joeurs peuvent jouer chacun leur tour depuis leur poste et les données seront échangées à travers le serveur.
 
 - Finalement, arrêtez le conteneur avec la commande suivante (les dernières chiffres sont le code de hachage affiché par docker ps):
 ```shell
