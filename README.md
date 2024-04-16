@@ -42,15 +42,15 @@ La classe **Controleur.java** : Elle permet de déterminé si tout les joueurs o
 
 ### Placement des bateaux :
 
-![1713272674621](images/Index/1713272674621.png)
+![1713272674621](1713272674621.png)
 
 ### Tire échoué :
 
-![1713272833654](images/Index/1713272833654.png)
+![1713272833654](1713272833654.png)
 
 ### tir réussi :
 
-![1713272886134](images/Index/1713272886134.png)
+![1713272886134](1713272886134.png)
 
 ## **Utilisation du DockerFile**
 
